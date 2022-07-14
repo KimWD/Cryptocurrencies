@@ -21,7 +21,23 @@ The purpose of this project is to analyze cryptocurrency data using Unsupervised
 From the elbow curve above, it can be determined that the optimal number of clusters is 4 (k=4). This information is used for specifying the number of clusters (n_clusters) when initializing the K-means model:
 ![elbow](Resources/elbow.png)
 
+**3D Plot**
+
 ![3d_plot](Resources/3d_plot.png)
 
+
+This 3D scatter plot with cluster is generated using the following code:
+
 ![3d_plot_code](Resources/3d_plot_code.png)
+
+**hvTable**
+
+![hvTable](Resources/hvTable.png)
+
+
+The hvTable above displays all of the currently tradeable cryptocurrencies. This table is created using the hvplot.table() function.
+
+![hvTable_code](Resources/hvTable_code.png)
+
+
 
