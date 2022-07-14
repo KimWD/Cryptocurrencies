@@ -6,11 +6,22 @@ The purpose of this project is to analyze cryptocurrency data using Unsupervised
 
 # Software
 
-Python 3.7
-scikit-learn 0.24
-hvPlot 0.7.0
-Plotly 4.14.3
+•	Python 3.7
+
+•	scikit-learn 0.24
+
+•	hvPlot 0.7.0
+
+•	Plotly 4.14.3
 
 # Results
 
+![cryto_elbow_curve](Resources/cryto_elbow_curve.png)
+
+From the elbow curve above, it can be determined that the optimal number of clusters is 4 (k=4). This information is used for specifying the number of clusters (n_clusters) when initializing the K-means model:
+![elbow](Resources/elbow.png)
+
+![3d_plot](Resources/3d_plot.png)
+
+![3d_plot_code](Resources/3d_plot_code.png)
 
