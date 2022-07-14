@@ -32,12 +32,21 @@ This 3D scatter plot with cluster is generated using the following code:
 
 **hvTable**
 
-![hvTable](Resources/hvTable.png)
+![hvtable](Resources/hvtable.png)
 
 
 The hvTable above displays all of the currently tradeable cryptocurrencies. This table is created using the hvplot.table() function.
 
 ![hvTable_code](Resources/hvTable_code.png)
+
+**hvPlot (Scatter)**
+
+![hvplot](Resources/hvplot.png)
+
+
+The graph above is a scatter plot grouped by class. This is created using hvplot.scatter. See the code below:
+
+![hvplot_code](Resources/hvplot_code.png)
 
 
 
